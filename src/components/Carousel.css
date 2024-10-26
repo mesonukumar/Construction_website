@@ -1,0 +1,10 @@
+.carousel-inner img {
+  max-height: 250px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensures images cover the area without distortion */
+}
+.carousel-indicators .active {
+  background-color: #fff; /* Change active indicator color */
+}
+.carousel-indicators {
+  list-style: none;
+}

@@ -1,0 +1,76 @@
+.about-us-container {
+    max-width: 1200px; /* Limit the maximum width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding for aesthetics */
+    font-family: 'Arial', sans-serif; /* Use a clean font */
+  }
+  
+  .md-section {
+    display: flex; /* Use flexbox to align image and details side by side */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 40px; /* Space between sections */
+    height: max-content;
+  }
+  
+  .md-image-container {
+    flex: 0.4; /* Adjusted to take up 40% of the width */
+    text-align: center; /* Center image in its container */
+  }
+  
+  .md-image {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add border radius for aesthetics */
+    max-width: 300px; /* Increased maximum width of the image */
+  }
+  
+  .md-details {
+    flex: 1; /* Allow details to take the remaining width */
+    padding-left: 20px; /* Space between image and details */
+  }
+  
+  .md-name {
+    font-size: 50px; /* Increase font size for name */
+    font-weight: bold; /* Bold font for name */
+    margin: 10px 0; /* Space above and below name */
+  }
+  
+  .md-title {
+    font-size: 30px; /* Increase font size for title */
+    font-weight: bold; /* Bold font for title */
+    margin: 5px 0; /* Space above and below title */
+  }
+  
+  .md-description {
+    font-size: 20px; /* Standard font size for description */
+    line-height: 1.5; /* Improved line spacing for readability */
+  }
+  
+  .company-section {
+    padding: 20px; /* Padding for the company section */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Optional: Add border radius for aesthetics */
+  }
+  
+  .company-title {
+    font-size: 24px; /* Large title for company section */
+    font-weight: bold; /* Bold font for company title */
+    margin-bottom: 10px; /* Space below the title */
+    border-bottom: 2px solid #333; /* Underline for company section title */
+  }
+  
+  .services-title {
+    font-size: 20px; /* Title for services section */
+    font-weight: bold; /* Bold font for services title */
+    margin-top: 20px; /* Space above the title */
+  }
+  
+  ul {
+    list-style-type: disc; /* Bulleted list style */
+    padding-left: 20px; /* Indent the list */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  

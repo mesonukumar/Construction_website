@@ -1,0 +1,46 @@
+.custom-gradient-navbar {
+    /* background-color:azure; */
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+     position: sticky;
+    top: 0;
+    width: 100%; 
+    z-index: 1000; 
+    transition: all 0.3s ease;
+    overflow: hidden; 
+    overflow-x: hidden
+    
+}
+.navbar-nav .nav-link {
+    font-size: 20px; 
+    font-weight: 2px;
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: red; 
+}
+.phone-number {
+    color: #241412; 
+    font-weight: 700px; 
+    display: flex; 
+    align-items: center; 
+    margin: 0; 
+    padding: 25px 1px; 
+    height: 100%; 
+    line-height: normal; 
+    background: linear-gradient(to right, #ff69b4, #fbb03b); 
+    border-radius: 5px; 
+    position: relative;
+    margin-right: 0;
+    margin-top: 0;
+    color: white;
+}
+
+.phone-number:hover {
+    background: linear-gradient(to right, #11f619, #b90926); 
+    transition: color 0.3s ease; 
+
+}
