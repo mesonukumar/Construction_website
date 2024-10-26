@@ -22,13 +22,13 @@
 
 .footer-logo h1 {
   font-size: 24px;
-  color: #ff69b4; /* Adjust color as needed */
+  color: #ff69b4;
 }
 
 .md-title h2 {
   font-size: 20px;
-  color: #fbb03b; /* Use a stylish color */
-  font-family: 'Georgia', serif; /* Choose a beautiful, elegant font */
+  color: #fbb03b;
+  font-family: "Georgia", serif;
   font-weight: bold;
   margin-top: 10px;
   text-transform: uppercase;
@@ -42,15 +42,15 @@
 }
 
 .md-image {
-    width: 150px; 
-    height: 150px;
-    border-radius: 50%; 
-    object-fit: cover;
-    margin-right: 20px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Enhanced shadow for a more defined effect */
-    border: 4px solid #333; 
-    transition: transform 0.3s ease-in-out;
-  }
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border: 4px solid #333;
+  transition: transform 0.3s ease-in-out;
+}
 
 .md-details {
   text-align: left;
@@ -59,7 +59,7 @@
 .md-details h3 {
   font-size: 20px;
   margin: 0;
-  color: #ff69b4; /* Adjust color as needed */
+  color: #ff69b4;
 }
 
 .md-details p {
@@ -68,18 +68,20 @@
   color: aqua;
 }
 .md-details h6 {
-    color: #fbb03b;
-  }
+  color: #fbb03b;
+}
 
-.footer-links, .footer-contact {
+.footer-links,
+.footer-contact {
   flex: 1;
   min-width: 200px;
   padding: 10px;
 }
 
-.footer-links h3, .footer-contact h3 {
+.footer-links h3,
+.footer-contact h3 {
   font-size: 18px;
-  color: #ff69b4; /* Adjust color as needed */
+  color: #ff69b4; 
 }
 
 .footer-links ul {
@@ -111,26 +113,26 @@
   color: #ccc;
 }
 .footer-social {
-  text-align: center; /* Center the social media section */
-  margin-top: 20px; /* Space above the social section */
+  text-align: center;
+  margin-top: 20px;
 }
 
 .footer-social h3 {
-  margin-bottom: 10px; /* Space below the heading */
+  margin-bottom: 10px;
 }
 
 .social-icons {
-  display: flex; /* Use flexbox to arrange icons horizontally */
-  justify-content: center; /* Center icons */
-  gap: 15px; /* Space between icons */
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 
 .social-icons a {
-  color: white; /* Default icon color */
-  font-size: 34px; /* Size of icons */
-  transition: color 0.3s; /* Transition effect on hover */
+  color: white;
+  font-size: 34px;
+  transition: color 0.3s;
 }
 
 .social-icons a:hover {
-  color: #007bff; /* Change color on hover */
+  color: #007bff;
 }

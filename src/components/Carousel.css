@@ -1,9 +1,9 @@
 .carousel-inner img {
-  max-height: 250px; /* Adjust the height as needed */
-  object-fit: cover; /* Ensures images cover the area without distortion */
+  max-height: 250px;
+  object-fit: cover;
 }
 .carousel-indicators .active {
-  background-color: #fff; /* Change active indicator color */
+  background-color: #fff;
 }
 .carousel-indicators {
   list-style: none;

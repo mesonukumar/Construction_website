@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
-import { FiPhone } from "react-icons/fi"; // Import the phone icon
+import { FiPhone } from "react-icons/fi"; 
 import logo from "../assets/logo.jpg";
 
 const Navbar = () => {
