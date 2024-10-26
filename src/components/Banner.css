@@ -1,29 +1,28 @@
 .banner {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Center vertically */
-    padding: 20px; /* Padding around the banner */
-    /* background: linear-gradient(to right, #c31432, #240b36);  */
+    display: flex; 
+    align-items: center; 
+    padding: 20px; 
     margin-top: 20px;
     margin-left: 1px;
     margin-right: 1px;
 }
 
 .banner-image {
-    width: 40%; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Space between image and text */
+    width: 40%; 
+    height: auto; 
+    margin-right: 20px; 
 }
 
 .banner-text {
-    color: rgb(205, 15, 15); /* Text color */
-    max-width: 50%; /* Limit width of text section */
+    color: rgb(205, 15, 15);
+    max-width: 50%; 
 }
 
 h1 {
-    font-size: 50px; /* Font size for heading */
-    margin: 0; /* Remove default margin */
+    font-size: 50px;
+    margin: 0;
 }
 
 p {
-    font-size: 1.2rem; /* Font size for paragraph */
+    font-size: 1.2rem;
 }
